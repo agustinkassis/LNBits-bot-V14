@@ -33,7 +33,7 @@ module.exports = {
    */
   run: async (client, Interaction) => {
     try {
-      Interaction.deferReply({ ephemeral: true });
+      await Interaction.deferReply({ ephemeral: true });
       const receiver = Interaction.options.get(`user`);
       const amount = Interaction.options.get(`monto`);
 

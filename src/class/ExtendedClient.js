@@ -1,3 +1,5 @@
+const envs = require("../envs.js")
+
 const {
   Client,
   Partials,

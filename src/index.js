@@ -1,4 +1,5 @@
-require("dotenv").config();
+require("./envs.js")
+
 const ExtendedClient = require("./class/ExtendedClient");
 const client = new ExtendedClient();
 
